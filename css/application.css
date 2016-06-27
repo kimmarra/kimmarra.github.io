@@ -68,9 +68,24 @@ header .header-content .header-content-inner h1 {
 }
 
 #work {
+  padding-top: 100px;
   height: 100vh;
 }
 
 #news {
-  height: 100vh;
+  padding-top: 100px;
+}
+
+.news-container {
+  width: 60%;
+  margin: 0 auto;
+}
+.individual-news-container {
+  border: 1px solid black;
+  margin: 2em 0em 1em 0em;
+  padding: 1em;
+}
+
+#contact {
+  padding-top: 100px;
 }
