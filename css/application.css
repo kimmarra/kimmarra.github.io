@@ -63,23 +63,55 @@ header .header-content .header-content-inner h1 {
 }
 
 #about {
-  padding-top: 100px;
-  height: 100vh;
+  display: block;
+  padding: 70px 0;
 }
 
 #work {
-  padding-top: 100px;
-  height: 100vh;
+  display: block;
+  padding: 70px 0;
+}
+
+
+.individual-painting-container {
+  overflow: hidden;
+}
+
+.individual-painting-container img {
+  display: block;
+  width: 100%;
+  height: 60%;
+}
+
+@media ( max-width: 760px ) {
+  .individual-painting-container {
+    text-align: center;
+  }
+
+  .individual-painting-container img {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+#more-work-button-container {
+  text-align: center;
+}
+
+#more-work-button-container a {
+  margin: 60px auto 0;
 }
 
 #news {
-  padding-top: 100px;
+  display: block;
+  padding: 70px 0;
 }
 
 .news-container {
   width: 60%;
   margin: 0 auto;
 }
+
 .individual-news-container {
   border: 1px solid black;
   margin: 2em 0em 1em 0em;
@@ -87,5 +119,55 @@ header .header-content .header-content-inner h1 {
 }
 
 #contact {
-  padding-top: 100px;
+  display: block;
+  padding: 70px 0;
+}
+
+/* Works index page styles */
+
+
+.works-header {
+  text-align: center;
+  display: block;
+  margin-top: 5em;
+  font-family: 'Raleway', sans-serif;
+}
+
+.works-section {
+  padding-top: 1em;
+}
+
+.painting-container {
+  overflow: hidden;
+  text-align: center;
+  padding: 2em;
+  border: 2px solid black;
+  margin: 1em;
+  font-family: 'Raleway', sans-serif;
+}
+
+.painting-container img {
+  height: 60%;
+}
+
+@media (max-width: 1500px) {
+  #parapet {
+    width: 100%;
+  }
+}
+
+@media ( max-width: 750px ) {
+  .big-painting {
+    width: 100%;
+  }
+}
+
+.painting-caption {
+  padding-top: .75em;
+  font-size: 1em;
+}
+
+.painting-name {
+  font-family: 'Raleway', sans-serif;
+  font-style: italic;
 }
