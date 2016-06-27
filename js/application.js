@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  $(".navbar-brand").on("click", function(e){
+  $("#page-top-link").on("click", function(e){
     e.preventDefault();
    $('html, body').animate({
       scrollTop: $("#page-top").offset().top

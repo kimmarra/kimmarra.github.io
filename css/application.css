@@ -122,3 +122,52 @@ header .header-content .header-content-inner h1 {
   display: block;
   padding: 70px 0;
 }
+
+/* Works index page styles */
+
+
+.works-header {
+  text-align: center;
+  display: block;
+  margin-top: 5em;
+  font-family: 'Raleway', sans-serif;
+}
+
+.works-section {
+  padding-top: 1em;
+}
+
+.painting-container {
+  overflow: hidden;
+  text-align: center;
+  padding: 2em;
+  border: 2px solid black;
+  margin: 1em;
+  font-family: 'Raleway', sans-serif;
+}
+
+.painting-container img {
+  height: 60%;
+}
+
+@media (max-width: 1500px) {
+  #parapet {
+    width: 100%;
+  }
+}
+
+@media ( max-width: 750px ) {
+  .big-painting {
+    width: 100%;
+  }
+}
+
+.painting-caption {
+  padding-top: .75em;
+  font-size: 1em;
+}
+
+.painting-name {
+  font-family: 'Raleway', sans-serif;
+  font-style: italic;
+}
