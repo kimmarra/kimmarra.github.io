@@ -175,6 +175,7 @@ header .header-content .header-content-inner p {
 .index-painting-caption {
   font-family: 'Raleway', sans-serif;
   font-style: italic;
+  color: #777;
 }
 
 @media ( max-width: 760px ) {
@@ -282,11 +283,12 @@ header .header-content .header-content-inner p {
 /* Works index page styles */
 
 
-.works-header {
+#works-header {
   text-align: center;
   display: block;
   margin-top: 5em;
   font-family: 'Raleway', sans-serif;
+  color: #882525;
 }
 
 .works-section {
@@ -297,13 +299,19 @@ header .header-content .header-content-inner p {
   overflow: hidden;
   text-align: center;
   padding: 2em;
-  border: 2px solid black;
+  border: 2px solid #777;
   margin: 1em;
   font-family: 'Raleway', sans-serif;
+  color: #777;
 }
 
 .painting-container img {
   height: 60%;
+}
+
+.divider {
+  font-weight: 700;
+  color: #882525;
 }
 
 @media (max-width: 1500px) {
