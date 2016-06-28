@@ -8,6 +8,59 @@
   flex: 1;
 }
 
+.btn-default {
+  color: #882525;
+  border-color: #882525;
+  transition: background-color 0.5s ease;
+}
+
+.btn-default:focus,
+.btn-default.focus {
+  color: #fff;
+  background-color: #882525;
+  border-color: #882525;
+  transition: background-color 0.5s ease;
+}
+.btn-default:hover {
+  color: #fff;
+  background-color: #882525;
+  border-color: #882525;
+  transition: background-color 0.5s ease;
+}
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+  color: #fff;
+  background-color: #882525;
+  border-color: #882525;
+  transition: background-color 0.5s ease;
+}
+
+.navbar {
+  border-bottom: 1px solid #882525;
+}
+
+.navbar-default .navbar-brand {
+  font-family: 'Raleway', sans-serif;
+  color: #882525;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #9f5050;
+  transition: color 0.5s ease;
+}
+
+.navbar-right li a {
+  font-family: 'Raleway', sans-serif;
+}
+
+.navbar-default .navbar-right li a:hover,
+.navbar-default .navbar-right li a:focus  {
+  color: #882525;
+  transition: color 0.5s ease;
+}
+
 header {
   position: relative;
   width: 100%;
@@ -35,6 +88,21 @@ header .header-content .header-content-inner h1 {
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header .header-content .header-content-inner p {
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  font-size: 25px;
+  color: #D39C3F;
+  margin-top: .5em;
+}
+
+#header-button {
+  margin-top: 10em;
+  padding: 1em 2em 1em 2em;
+  font-family: 'Raleway', sans-serif;
 }
 
 @media (min-width: 768px) {
@@ -55,16 +123,37 @@ header .header-content .header-content-inner h1 {
     margin-right: auto;
   }
   header .header-content .header-content-inner p {
-    font-size: 18px;
+    font-size: 25px;
     max-width: 80%;
     margin-left: auto;
     margin-right: auto;
   }
 }
 
+.section-heading {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  padding-bottom: 1em;
+  color: #777;
+}
+
 #about {
   display: block;
   padding: 70px 0;
+}
+
+#about-text {
+  font-family: 'Raleway', sans-serif;
+}
+
+.section-border {
+  border-bottom: 1px solid #882525;
+}
+
+@media ( max-width: 768px ) {
+  .section-border {
+    width: 80%;
+  }
 }
 
 #work {
@@ -81,6 +170,11 @@ header .header-content .header-content-inner h1 {
   display: block;
   width: 100%;
   height: 60%;
+}
+
+.index-painting-caption {
+  font-family: 'Raleway', sans-serif;
+  font-style: italic;
 }
 
 @media ( max-width: 760px ) {
@@ -102,9 +196,18 @@ header .header-content .header-content-inner h1 {
   margin: 60px auto 0;
 }
 
+#see-more-work-button {
+  padding: 1em 2em 1em 2em;
+  font-family: 'Raleway', sans-serif;
+}
+
 #news {
   display: block;
   padding: 70px 0;
+}
+
+#news h2 {
+  color: #777;
 }
 
 .news-container {
@@ -113,14 +216,67 @@ header .header-content .header-content-inner h1 {
 }
 
 .individual-news-container {
-  border: 1px solid black;
+  border: 1px solid #777;
   margin: 2em 0em 1em 0em;
   padding: 1em;
+  font-family: 'Raleway', sans-serif;
+}
+
+.individual-news-container h4 {
+  color: #882525;
+}
+
+.individual-news-container p {
+  color: #777;
+}
+
+.individual-news-container a {
+  color: #D39C3F;
+}
+
+.individual-news-container a:hover {
+  text-decoration: none;
+  color: #882525;
+  transition: color 0.5s ease;
+}
+
+#bottom-image {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-image: url('../img/bottom-img.jpeg');
+  height: 50vh;
 }
 
 #contact {
   display: block;
   padding: 70px 0;
+}
+
+#twitter-link {
+  margin-right: 4em;
+  color: #882525;
+}
+
+#mail-link {
+  color: #882525;
+}
+
+#twitter-link:hover {
+  color: #9f5050;
+  transition: color 0.5s ease;
+}
+
+#mail-link:hover {
+  color: #9f5050;
+  transition: color 0.5s ease;
+}
+
+#copyright p {
+  font-size: .75em;
+  color: #777;
 }
 
 /* Works index page styles */
