@@ -164,11 +164,21 @@ header .header-content .header-content-inner p {
 
 .individual-painting-container {
   overflow: hidden;
+  /*border-right: 1px solid #777;*/
+  /*border-bottom: 1px solid #777;*/
+  text-align: center;
+  /*margin: .5em;*/
+  /*padding-top: 1em;*/
+  /*padding-left: 3px;
+  padding-right: 3px;*/
 }
 
 .individual-painting-container img {
+  margin: 0 auto;
   display: block;
-  width: 100%;
+  /*width: 100%;*/
+  /*border: 1px solid #777;
+  padding: 1em;*/
   height: 60%;
 }
 
