@@ -16,8 +16,7 @@
 
 .btn-default:focus,
 .btn-default.focus {
-  color: #fff;
-  background-color: #882525;
+  color: #882525;
   border-color: #882525;
   transition: background-color 0.5s ease;
 }
@@ -30,8 +29,7 @@
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
-  color: #fff;
-  background-color: #882525;
+  color: #882525;
   border-color: #882525;
   transition: background-color 0.5s ease;
 }
@@ -41,23 +39,31 @@
 }
 
 .navbar-default .navbar-brand {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Special Elite', cursive;
   color: #882525;
 }
 
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus {
+.navbar-default .navbar-brand:hover {
   color: #9f5050;
   transition: color 0.5s ease;
 }
 
-.navbar-right li a {
-  font-family: 'Raleway', sans-serif;
+.navbar-default .navbar-brand:focus {
+  color: #882525;
+  transition: color 0.5s ease;
 }
 
-.navbar-default .navbar-right li a:hover,
-.navbar-default .navbar-right li a:focus  {
+.navbar-right li a {
+  font-family: 'Inconsolata', monospace;
+}
+
+.navbar-default .navbar-right li a:hover {
   color: #882525;
+  transition: color 0.5s ease;
+}
+
+.navbar-default .navbar-right li a:focus  {
+  color: #777;
   transition: color 0.5s ease;
 }
 
@@ -71,16 +77,20 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('../img/header-img.jpeg');
+  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('../img/brick-header-img.jpg');
   text-align: center;
   color: white;
 }
 
 header .header-content {
   position: relative;
-  text-align: center;
+  /*text-align: center;*/
   padding: 100px 15px 100px;
   width: 100%;
+}
+
+header .header-content .header-content-inner .main-name {
+  margin-left: -5em;
 }
 
 header .header-content .header-content-inner h1 {
@@ -88,21 +98,56 @@ header .header-content .header-content-inner h1 {
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Special Elite', cursive;
 }
 
 header .header-content .header-content-inner p {
-  font-family: 'Montserrat', sans-serif;
-  font-style: italic;
-  font-size: 25px;
-  color: #D39C3F;
-  margin-top: .5em;
+  font-family: 'Special Elite', cursive;
+  font-size: 50px;
+  /*color: #D39C3F;*/
+  /*margin-top: .5em;*/
 }
 
 #header-button {
-  margin-top: 10em;
+  margin-top: 4em;
   padding: 1em 2em 1em 2em;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Inconsolata', monospace;
+}
+
+@media ( max-width: 991px ) {
+  #header-button {
+    margin-top: 10em;
+  }
+  header .header-content .header-content-inner .main-name {
+    margin-left: 0em;
+  }
+}
+
+@media ( max-width: 736px ) {
+  #header-button {
+    margin-top: 4em;
+  }
+  header .header-content .header-content-inner .main-name {
+    margin-left: 0em;
+  }
+}
+
+@media ( max-width: 667px ) {
+   #header-button {
+    margin-top: 2.5em;
+  }
+  header .header-content .header-content-inner .main-name {
+    margin-left: 0em;
+  }
+}
+
+@media ( max-width: 568px ) {
+  #header-button {
+    margin-top: -1em;
+  }
+  header .header-content .header-content-inner .main-name {
+    margin-left: 0em;
+  }
 }
 
 @media (min-width: 768px) {
@@ -123,7 +168,7 @@ header .header-content .header-content-inner p {
     margin-right: auto;
   }
   header .header-content .header-content-inner p {
-    font-size: 25px;
+    font-size: 50px;
     max-width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -131,7 +176,7 @@ header .header-content .header-content-inner p {
 }
 
 .section-heading {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Special Elite', cursive;
   font-weight: 700;
   padding-bottom: 1em;
   color: #777;
@@ -143,7 +188,7 @@ header .header-content .header-content-inner p {
 }
 
 #about-text {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Inconsolata', monospace;
 }
 
 .section-border {
@@ -183,7 +228,7 @@ header .header-content .header-content-inner p {
 }
 
 .index-painting-caption {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Inconsolata', monospace;
   font-style: italic;
   color: #777;
 }
@@ -209,7 +254,7 @@ header .header-content .header-content-inner p {
 
 #see-more-work-button {
   padding: 1em 2em 1em 2em;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Inconsolata', monospace;
 }
 
 #news {
@@ -218,6 +263,7 @@ header .header-content .header-content-inner p {
 }
 
 #news h2 {
+  font-family: 'Special Elite', cursive;
   color: #777;
 }
 
@@ -230,7 +276,7 @@ header .header-content .header-content-inner p {
   border: 1px solid #777;
   margin: 2em 0em 1em 0em;
   padding: 1em;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Inconsolata', monospace;
 }
 
 .individual-news-container h4 {
@@ -266,12 +312,18 @@ header .header-content .header-content-inner p {
   padding: 70px 0;
 }
 
+#email {
+  font-family: 'Inconsolata', monospace;
+  color: #882525;
+  margin-bottom: 1.5em;
+}
+
 #twitter-link {
   margin-right: 4em;
   color: #882525;
 }
 
-#mail-link {
+#insta-link {
   color: #882525;
 }
 
@@ -280,12 +332,13 @@ header .header-content .header-content-inner p {
   transition: color 0.5s ease;
 }
 
-#mail-link:hover {
+#insta-link:hover {
   color: #9f5050;
   transition: color 0.5s ease;
 }
 
 #copyright p {
+  font-family: 'Inconsolata', monospace;
   font-size: .75em;
   color: #777;
 }
@@ -297,7 +350,7 @@ header .header-content .header-content-inner p {
   text-align: center;
   display: block;
   margin-top: 5em;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Special Elite', cursive;
   color: #882525;
 }
 
@@ -311,7 +364,7 @@ header .header-content .header-content-inner p {
   padding: 2em;
   border: 2px solid #777;
   margin: 1em;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Inconsolata', monospace;
   color: #777;
 }
 
@@ -342,6 +395,6 @@ header .header-content .header-content-inner p {
 }
 
 .painting-name {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Inconsolata', monospace;
   font-style: italic;
 }

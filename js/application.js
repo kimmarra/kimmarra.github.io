@@ -41,4 +41,13 @@ $(document).ready(function() {
       scrollTop: $("#contact").offset().top
     }, 700);
   });
+
+  $(".navbar-collapse").on("click", "a", function(e) {
+    if( $(e.target).closest(".navbar-collapse").attr("aria-expanded") === "true" ) {
+        $(e.target).closest(".navbar-collapse").attr("aria-expanded", "false");
+        $(e.target).closest(".navbar-collapse").removeClass("in");
+        $(".navbar-toggle").addClass("collapsed");
+        $(".navbar-toggle").attr("aria-expanded", "false");
+    };
+  });
 });
