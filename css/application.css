@@ -104,6 +104,7 @@ header .header-content .header-content-inner h1 {
 header .header-content .header-content-inner p {
   font-family: 'Special Elite', cursive;
   font-size: 50px;
+  /*text-align: justify;*/
   /*color: #D39C3F;*/
   /*margin-top: .5em;*/
 }
@@ -267,7 +268,7 @@ header .header-content .header-content-inner p {
   color: #777;
 }
 
-.news-container {
+.index-news-container {
   width: 60%;
   margin: 0 auto;
 }
@@ -397,4 +398,42 @@ header .header-content .header-content-inner p {
 .painting-name {
   font-family: 'Inconsolata', monospace;
   font-style: italic;
+}
+
+/* News Page styling */
+
+#news-header {
+  text-align: center;
+  display: block;
+  margin-top: 5em;
+  font-family: 'Special Elite', cursive;
+  color: #882525;
+}
+
+.news-section {
+  padding-top: 1em;
+}
+
+.news-container {
+  overflow: hidden;
+  padding: 2em;
+  border: 2px solid #777;
+  margin: 1em;
+  font-family: 'Inconsolata', monospace;
+  color: #777;
+}
+
+.news-container h4 {
+  text-align: center;
+  font-family: 'Inconsolata', monospace;
+  color: #882525;
+}
+
+#chasma-address-info {
+  text-align: center;
+}
+
+.news-container p {
+  font-family: 'Inconsolata', monospace;
+  color: #777;
 }
