@@ -392,11 +392,11 @@ header .header-content .header-content-inner p {
   font-style: normal;
 }
 
-@media (max-width: 1500px) {
+/*@media (max-width: 1500px) {
   #parapet {
     width: 100%;
   }
-}
+}*/
 
 @media ( max-width: 750px ) {
   .big-painting {
@@ -413,6 +413,126 @@ header .header-content .header-content-inner p {
   font-family: 'Inconsolata', monospace;
   font-style: italic;
 }
+
+#rooftops {
+  width: 535px;
+  height: 424px;
+  min-height: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-image: url("../art_works/Rooftops.jpg");
+  margin: 0 auto;
+}
+
+@media (max-width: 620px) {
+  #rooftops {
+    width: 300px;
+    height: 237px;
+    -moz-background-size: none;
+    background-size: none;
+    -o-background-size: none;
+    background-position: none;
+    background-image: url("../art_works/rooftops_small.jpg");
+  }
+}
+
+#tunnels {
+  width: 482px;
+  height: 424px;
+  min-height: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-image: url("../art_works/tunnels.jpg");
+  margin: 0 auto;
+}
+
+@media (max-width: 620px) {
+  #tunnels {
+    width: 300px;
+    height: 237px;
+    -moz-background-size: none;
+    background-size: none;
+    -o-background-size: none;
+    background-position: none;
+    background-image: url("../art_works/tunnels_small.jpg");
+  }
+}
+
+#cabinets {
+  width: 492px;
+  height: 424px;
+  min-height: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-image: url("../art_works/Cabinets.jpg");
+  margin: 0 auto;
+}
+
+@media (max-width: 620px) {
+  #cabinets {
+    width: 300px;
+    height: 237px;
+    -moz-background-size: none;
+    background-size: none;
+    -o-background-size: none;
+    background-position: none;
+    background-image: url("../art_works/cabinets_small.jpg");
+  }
+}
+
+#parapet {
+  width: 1110px;
+  height: 492px;
+  min-height: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-image: url("../art_works/parapet.jpg");
+  margin: 0 auto;
+}
+
+@media (max-width: 1200px) {
+  #parapet {
+    width: 450px;
+    height: 179px;
+    -moz-background-size: none;
+    background-size: none;
+    -o-background-size: none;
+    background-position: none;
+    background-image: url("../art_works/parapet_small.jpg");
+  }
+}
+
+@media (max-width: 620px) {
+  #parapet {
+    width: 300px;
+    height: 119px;
+    -moz-background-size: none;
+    background-size: none;
+    -o-background-size: none;
+    background-position: none;
+    background-image: url("../art_works/parapet_tiny.jpg");
+  }
+}
+
+@media (max-width: 620px) {
+  .small-picture-adjustment {
+    padding-right: 20px;
+  }
+}
+
+
 
 /* News Page styling */
 
