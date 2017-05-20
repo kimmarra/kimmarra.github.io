@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  $("#page-top-link").on("click", function(e){
+  $("#home-link").on("click", function(e){
     e.preventDefault();
    $('html, body').animate({
       scrollTop: $("#page-top").offset().top
@@ -17,7 +17,7 @@ $(document).ready(function() {
   $("#about-link").on("click", "a", function(e){
     e.preventDefault();
    $('html, body').animate({
-      scrollTop: $("#about").offset().top
+      scrollTop: $("#news").offset().top
     }, 700);
   });
 
@@ -38,7 +38,7 @@ $(document).ready(function() {
   $("#contact-link").on("click", "a", function(e){
     e.preventDefault();
    $('html, body').animate({
-      scrollTop: $("#contact").offset().top
+      scrollTop: $("#news").offset().top
     }, 700);
   });
 

@@ -1,0 +1,37 @@
+[
+  {
+    "id": 0,
+    "name": "Image title",
+    "description": "Image description",
+    "source": "art_works/rocks_t.jpg",
+    "full": "art_works/Rocks.jpg"
+  },
+  {
+    "id": 1,
+    "name": "Image title",
+    "description": "Image description",
+    "source": "art_works/guest_house_t.jpg",
+    "full": "art_works/Guest_House.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Image title",
+    "description": "Image description",
+    "source": "art_works/classroom_t.jpg",
+    "full": "art_works/A_Classroom.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Image title",
+    "description": "Image description",
+    "source": "art_works/mountain_town_t.jpg",
+    "full": "art_works/Mountain_Town.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Image title",
+    "description": "Image description",
+    "source": "art_works/dog_house_t.jpg",
+    "full": "art_works/Dog_House_1.jpg"
+  }
+]
