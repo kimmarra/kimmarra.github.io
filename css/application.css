@@ -30,7 +30,11 @@ body {
 }
 
 .h4 {
-	margin-bottom:3px;
+	font-family:'Special Elite', Arial, sans-serif;
+	font-weight:700;
+	line-height:1.0em;
+	color:#333;
+	margin-bottom: 4px;
 }
 
 .navbar .nav > li > a {
@@ -137,7 +141,7 @@ p1 {
 	align: center; 
 }
 
-h2, h3, h4, h5, h6 {
+h2, h3, h5, h6 {
 	font-family:'Special Elite', Arial, sans-serif;
 	font-weight:700;
 	line-height:1.0em;
