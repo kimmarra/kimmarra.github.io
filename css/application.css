@@ -29,6 +29,10 @@ body {
 	color:#656565;
 }
 
+.h4 {
+	margin-bottom:3px;
+}
+
 .navbar .nav > li > a {
 	margin-left: 3px;
 	margin-right: 17px;
