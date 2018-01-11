@@ -8,6 +8,9 @@
 
   <!-- Core Bootstrap CSS -->
   <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+  <link rel="stylesheet" href="css/nanogallery2.min.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
 
   <!-- Custom CSS -->
   <link rel="stylesheet" href="css/application.css" type="text/css">
@@ -29,37 +32,38 @@
   <header>
 
   <!-- Top Nav Bar -->
-  <nav class="navbar navbar-default navbar-static-top">
+  <nav class="navbar navbar-default navbar-static-top" style="height: 20px;">
     <div class="container container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
+        <!--
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
            <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
-        </button>
+        </button>-->
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-left social">
-                <li><a href="https://instagram.com/kimmmarra"><i class="fa fa-lg fa-instagram"></i></a></li>
-                <li><a href="https://twitter.com/funnyhat"><i class="fa fa-lg fa-twitter"></i></a></li>
-                <li><a href="mailto:kmarra03@gmail.com"><i class="fa fa-lg fa-envelope"></i></a></li>
+                <li style="padding-top: 16px" class="li-social"><a href="https://instagram.com/kimmmarra"><i class="fa fa-lg fa-instagram"></i></a></li>
+                <li style="padding-top: 16px" class="li-social"><a href="https://twitter.com/funnyhat"><i class="fa fa-lg fa-twitter"></i></a></li>
+                <li style="padding-top: 16px" class="li-social"><a href="mailto:kmarra03@gmail.com"><i class="fa fa-lg fa-envelope"></i></a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <li id="home-link"><a href="index.html">home</a></li>
           <li id="about-link"><a href="index.html#news">news</a></li>
           <li id="contact-link"><a href="index.html#news">contact</a></li>
-          <li><a href="pdfs/kim-resume.pdf">CV</a></li>
+          <li><a href="pdfs/Marra__CV_2018.pdf">CV</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
   </nav>
   </header>
 
-    <div class="container" style="margin-bottom: 5px;">
+    <div class="container" style="margin-top: 15px; margin-bottom: 5px;">
         <div class="col-lg-12">
           <!-- slider -->
           <h1 class="text-center">Kim Marra <span class="wrapper"> | fine artist</span></h1>
@@ -71,154 +75,46 @@
     <div class="container">
       <div class="row">
       <div class="col-md-12 col-sm-12 col-xs-12">
-        <!--gallery goes here -->
-        <div id="lightgallery">    
-
-          <div class="col-md-3 col-sm-6 col-xs-6 thumb">        
-            <div class="item" data-src="art_works/Studio.jpg" data-sub-html="<h4>Studio</h4><p>Oil On Canvas, 72&quot;x48&quot; | 2017</p>">
-              <div class="hovereffect">
-                <img src="art_works/studio_t2.jpg" class="img-responsive" />
-                <div class="overlay">
-                    <h2>Studio</h2><p></p>
-                    <p>Oil On Canvas, 72&quot;x48&quot;</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-3 col-sm-6 col-xs-6 thumb">        
-            <div class="item" data-src="art_works/Downstairs.jpg" data-sub-html="<h4>Down Stairs</h4><p>Oil On Canvas, 48&quot;x30&quot; | 2017</p>">
-              <div class="hovereffect">
-                <img src="art_works/downstairs_t2.jpg" class="img-responsive" />
-                <div class="overlay">
-                    <h2>Down Stairs</h2><p></p>
-                    <p>Oil On Canvas, 48&quot;x30&quot;</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-3 col-sm-6 col-xs-6 thumb">        
-            <div class="item" data-src="art_works/Bird_House.jpg" data-sub-html="<h4>Bird House</h4><p>Oil On Canvas, 60&quot;x40&quot; | 2017</p>">
-              <div class="hovereffect">
-                <img src="art_works/bird_house_t2.jpg" class="img-responsive" />
-                <div class="overlay">
-                    <h2>Bird House</h2><p></p>
-                    <p>Oil On Canvas, 60&quot;x40&quot;</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-3 col-sm-6 col-xs-6 thumb">
-            <div class="item" data-src="art_works/Porch_Light.jpg" data-sub-html="<h4>Porch Light</h4><p>Oil On Canvas, 36&quot;x18&quot; | 2017</p>">
-              <div class="hovereffect">
-                <img src="art_works/porch_light_t2.jpg" class="img-responsive" />
-                <div class="overlay">
-                    <h2>Porch Light</h2><p></p>
-                    <p>Oil On Canvas, 36&quot;x18&quot;</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-3 col-sm-6 col-xs-6 thumb">
-            <div class="item" data-src="art_works/Dog_House_2.jpg" data-sub-html="<h4>Dog House #2</h4><p>Oil On Canvas, 24&quot;x48&quot; | 2017</p>">
-              <div class="hovereffect">
-                <img src="art_works/dog_house_2_t2.jpg" class="img-responsive" />
-                <div class="overlay">
-                    <h2>Dog House #2</h2><p></p>
-                    <p>Oil On Canvas, 24&quot;x48&quot;</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-3 col-sm-6 col-xs-6 thumb">
-            <div class="item" data-src="art_works/Rocks.jpg" data-sub-html="<h4>Rocks</h4><p>Oil On Canvas, 60&quot;x40&quot; | 2017</p>">
-              <div class="hovereffect">
-                <img src="art_works/rocks_t2.jpg" class="img-responsive" />
-                <div class="overlay">
-                    <h2>Rocks</h2><p></p>
-                    <p>Oil On Canvas, 60&quot;x40&quot;</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-3 col-sm-6 col-xs-6 thumb">
-            <div class="item" data-src="art_works/Guest_House.jpg" data-sub-html="<h4>Guest House</h4><p>Oil On Canvas, 60&quot;x48&quot; | 2017</p>">
-              <div class="hovereffect">
-                <img src="art_works/guest_house_t2.jpg" class="img-responsive" />
-                <div class="overlay">
-                    <h2>Guest House</h2><p></p>
-                    <p>Oil On Canvas, 60&quot;x48&quot;</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-3 col-sm-6 col-xs-6 thumb">
-            <div class="item" data-src="art_works/A_Classroom.jpg" data-sub-html="<h4>Classroom</h4><p>Oil On Canvas, 48&quot;x30&quot; | 2017</p>">
-              <div class="hovereffect">
-                <img src="art_works/classroom_t2.jpg" class="img-responsive" />
-                <div class="overlay">
-                    <h2>Classroom</h2><p></p>
-                    <p>Oil On Canvas, 48&quot;x30&quot;</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-3 col-sm-6 col-xs-6 thumb">
-            <div class="item" data-src="art_works/Dog_House_1.jpg" data-sub-html="<h4>Dog House 1</h4><p>Oil On Canvas, 30&quot;x24&quot; | 2017</p>">
-              <div class="hovereffect">
-                <img src="art_works/dog_house_t2.jpg" class="img-responsive" />
-                <div class="overlay">
-                    <h2>Dog House #1</h2><p></p>
-                    <p>Oil On Canvas, 30&quot;x24&quot;</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-3 col-sm-6 col-xs-6 thumb">
-            <div class="item" data-src="art_works/Mountain_Town.jpg" data-sub-html="<h4>Mountain Town</h4><p>Oil On Canvas, 36&quot;x42&quot; | 2016</p>">
-              <div class="hovereffect">
-                <img src="art_works/mountain_town_t2.jpg" class="img-responsive" />
-                <div class="overlay">
-                    <h2>Mountain Town</h2><p></p>
-                    <p>Oil On Canvas, 36&quot;x42&quot;</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-3 col-sm-6 col-xs-6 thumb">
-            <div class="item" data-src="art_works/Boxes.jpg" data-sub-html="<h4>Boxes</h4><p>Oil On Canvas, 42&quot;x36&quot; | 2015</p>">
-              <div class="hovereffect">
-                <img src="art_works/boxes_t.jpg" class="img-responsive" />
-                <div class="overlay">
-                    <h2>Boxes</h2><p></p>
-                    <p>Oil On Canvas, 42&quot;x36&quot;</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-3 col-sm-6 col-xs-6 thumb">
-            <div class="item" data-src="art_works/Surfaces.jpg" data-sub-html="<h4>Surfaces</h4><p>Oil On Canvas, 42&quot;x36&quot; | 2015</p>">
-              <div class="hovereffect">
-                <img src="art_works/surfaces_t.jpg" class="img-responsive" />
-                <div class="overlay">
-                    <h2>Surfaces</h2><p></p>
-                    <p>Oil On Canvas, 42&quot;x36&quot;</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
+        <!--new gallery -->
+        <div id="nanogallery2" data-nanogallery2='{
+          "thumbnailHeight":         275, "thumbnailWidth": 275,
+          "thumbnailL1GutterWidth":  10,
+          "thumbnailL1GutterHeight":  10,
+          "itemsBaseURL":            "art_works/",
+          "galleryDisplayMode":    "pagination",
+          "galleryMaxRows":        2,
+          "galleryPaginationMode": "numbers",
+          "thumbnailBorderVertical": 0,
+          "thumbnailBorderHorizontal": 0,
+          "thumbnailLabel": {
+            "position": "overImageOnTop",
+            "displayDescription": true
+          },
+          "thumbnailHoverEffect2":     "labelAppear|labelSlideUpTop|descriptionSlideUp|image_brightness_1_0.5"
+        }'>
+        
+        <!-- IMAGES -->
+        <a href="Ceilings_2.jpg" data-ngthumb="ceilings_t2.jpg" data-ngdesc="Oil on Assembled Wood Panels | 24&quot;x18&quot; | 2017">Ceilings</a>
+        <a href="Walkway_2.jpg" data-ngthumb="walkway_t2.jpg" data-ngdesc="Oil on Assembled Wood Panels | 40&quot;x40&quot; | 2017">Walkway</a>
+        <a href="Diamonds.jpg" data-ngthumb="diamonds_t2.jpg" data-ngdesc="Oil on Assembled Wood Panels | 30&quot;x30&quot; | 2017">Diamonds</a>
+        <a href="Dominoes.jpg" data-ngthumb="dominoes_t2.jpg" data-ngdesc="Oil on Assembled Wood Panels | 30&quot;x24&quot; | 2017">Dominoes</a>
+        <a href="At_Home.jpg" data-ngthumb="athome_t2.jpg" data-ngdesc="Oil on Canvas | 68&quot;x71&quot; | 2017">At Home</a>
+        <a href="Backyard_1.jpg" data-ngthumb="backyard1_t2.jpg" data-ngdesc="Oil on Canvas | 36&quot;x36&quot; | 2017">Backyard #1</a>
+        <a href="Wrapped_Up.jpg" data-ngthumb="wrappedup_t2.jpg" data-ngdesc="Oil on Canvas | 48&quot;x30&quot; | 2017">Wrapped Up</a>
+        <a href="Backyard_2.jpg" data-ngthumb="backyard2_t2.jpg" data-ngdesc="Oil on Canvas | 60&quot;x36&quot; | 2017">Backyard #2</a>
+        <a href="Studio.jpg" data-ngthumb="studio_t2.jpg" data-ngdesc="Oil On Canvas | 72&quot;x48&quot; | 2017">Studio</a>
+        <a href="Growth.jpg" data-ngthumb="growth_t2.jpg" data-ngdesc="Oil on Wood Panel | 24&quot;x15&quot; | 2017">Growth</a>
+        <a href="Downstairs.jpg" data-ngthumb="downstairs_t2.jpg">Downstairs</a>
+        <a href="Bird_House.jpg" data-ngthumb="bird_house_t2.jpg">Bird House</a>
+        <a href="Porch_Light.jpg" data-ngthumb="porch_light_t2.jpg">Porch Light</a>
+        <a href="Dog_House_2.jpg" data-ngthumb="dog_house_2_t2.jpg">Dog House 2</a>
+        <a href="Rocks.jpg" data-ngthumb="rocks_t2.jpg">Rocks</a>
+        <a href="Guest_House.jpg" data-ngthumb="guest_house_t2.jpg">Guest House</a>
+        <a href="Dog_House_1.jpg" data-ngthumb="dog_house_t2.jpg">Dog House 1</a>
+        <a href="Mountain_Town.jpg" data-ngthumb="mountain_town_t2.jpg">Mountain Town</a>
+        <a href="Boxes.jpg" data-ngthumb="boxes_t.jpg">Boxes</a>
+        <a href="Surfaces.jpg" data-ngthumb="surfaces_t.jpg">Surfaces</a>
+      </div>
       </div> <!--gallery-->
       </div>
       </div>
@@ -236,54 +132,67 @@
   <section id="news">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-6 text-center">
-          <h2>news</h2>
+          <div class="col-md-12 col-sm-12 col-xs-12">
+          <h2 class="text-center">news</h2>
           <p></p>
-          <div class="individual-news-container">
-            <h4>GCC Public Art Competition Finalist!</h4>
-            <p>I've been selected as a finalist for the Glendale Community College Public Art Competiton! Details <a href="http://mailchi.mp/992bb83928f8/join-us-amazing-things-at-the-art-gallery-2354053?e=">here</a></p>
+          <div class="news-slick">
+            <div>
+              <h4>GCC Public Art Competition Finalist!</h4>
+              <p>I've been selected as a finalist for the Glendale Community College Public Art Competiton! Details <a href="http://mailchi.mp/992bb83928f8/join-us-amazing-things-at-the-art-gallery-2354053?e=">here</a></p>
+            </div>
+            <div>
+              <h4>FRACTURED LENSES Art Opening</h4>
+              <p><b>Saturday, May 20th at 7pm, at <a href="https://goo.gl/maps/teYP8f4j3Hz">Pilates & Arts Echo Park</a></b><br>Please join me at the opening of <a href=img/fractured_lenses.jpg>FRACTURED LENSES</a>, an exhibition featuring myself, Andrew Covell and Shiva Tarsa.</p>
+            </div>
+            <div>
+              <h4>Emergent Art Space</h4>
+              <p>I was interviewed for a feature on Emergent Art Space! <a href="http://emergentartspace.org/forum/36873/">Check it out.</a></p>
+            </div>
+            <div>
+              <h4>Paint Pulse Magazine</h4>
+              <p>My painting Boxes is being featured in Issue 5 of Paint Pulse Magazine! For a preview, visit the <a href="http://www.paintpulsemagazine.com/currently-featured.html">currently featured</a> section of the magazine.</p>
+            </div>
+            <div>
+              <h4>FAMILIAR PLACES: Window Display and Solo Exhibition</h4>
+              <p>Solo Exhibition at the Chashama art space in New York. Click <a href="news.html">here</a> for more info</p>
+            </div>
           </div>
-          <div class="individual-news-container">
-            <h4>FRACTURED LENSES Art Opening</h4>
-            <p><b>Saturday, May 20th at 7pm, at <a href="https://goo.gl/maps/teYP8f4j3Hz">Pilates & Arts Echo Park</a></b><br>Please join me at the opening of <a href=img/fractured_lenses.jpg>FRACTURED LENSES</a>, an exhibition featuring myself, Andrew Covell and Shiva Tarsa.</p>
-          </div>
-          <div class="individual-news-container">
-            <h4>Emergent Art Space</h4>
-            <p>I was interviewed for a feature on Emergent Art Space! <a href="http://emergentartspace.org/forum/36873/">Check it out.</a></p>
-          </div>
-          <div class="individual-news-container">
-            <h4>Paint Pulse Magazine</h4>
-            <p>My painting Boxes is being featured in Issue 5 of Paint Pulse Magazine! For a preview, visit the <a href="http://www.paintpulsemagazine.com/currently-featured.html">currently featured</a> section of the magazine.</p>
-          </div>
-          <div class="individual-news-container">
-           <h4>FAMILIAR PLACES: Window Display and Solo Exhibition</h4>
-           <p>Solo Exhibition at the Chashama art space in New York. Click <a href="news.html">here</a> for more info</p>
-         </div>
         </div>
-        <div class="col-lg-6 col-md-6 col-sm-6 text-center">
-          <h2>contact</h2>
-          <p></p>
-          <div class="individual-news-container">
-            <h4 id="email">email: kmarra03@gmail.com</h4>
-         </div>
+        
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 text-center">
+              <h2 class="section-heading">statement</h2>
+              <p id="about-text">
+                My memories are dominated by the spaces I experienced them in. How I felt and where I was are inextricably linked. Through my paintings, 
+                I extract elements from my past surroundings and reconfigure them in a way that feels more natural to me. I am attracted to both urban, industrial landscapes and domestic interiors. 
+                The visual content of the two can be so different yet the feelings I associate with them often overlap. When I’m painting I’m considering why a city sidewalk can feel connected to my childhood bedroom, or how 
+                the bricks of an empty warehouse resemble the chimney in my old home. My recent work is inspired by the aesthetic of collage. Geometric shapes and bold colors enhance this process
+                while making my work aggressive and confrontational. The environments I create are scattered with entrances, twists and turns. There are places for the eye to travel and areas that
+                stop short and force you out. They are meant to be explored as they welcome you, surround you, beyond your control, take you home.              
+              </p>
+            </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+            <h2 class="text-center">contact</h2>
+            <p></p>
+            <div class="individual-news-container">
+              <form text-align="center" method="POST" action="https://formspree.io/corey.marra@gmail.com">
+                <input class="form-control" type="email" name="email" placeholder="Your email">
+                <textarea class="form-control" name="message" placeholder="Your message"></textarea>
+                <button class="btn btn-default" type="submit">Send</button>
+              </form><br>
+              <h4 class="text-center" id="email">email: kmarra03@gmail.com</h4>
+            </div>
         </div>
+        </div>
+      </div>
       </div>
     </div>
   </section>  
-<!--
-  <section id="about">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12 text-center">
-          <h2 class="section-heading">statement</h2>
-          <p id="about-text">
-            My memories are dominated by the spaces I experienced them in. How I felt and where I was are inextricably linked. Through my paintings, I extract elements from my past surroundings and reconfigure them in a way that feels more natural to me. I am attracted to both urban, industrial landscapes and domestic interiors. The visual content of the two can be so different yet the feelings I associate with them often overlap. When I’m painting I’m considering why a city sidewalk can feel connected to my childhood bedroom, or how the bricks of an empty warehouse resemble the chimney in my old home. My recent work is inspired by the aesthetic of collage. Geometric shapes and bold colors enhance this process while making my work aggressive and confrontational. The environments I create are scattered with entrances, twists and turns. There are places for the eye to travel and areas that stop short and force you out. They are meant to be explored as they welcome you, surround you, and simultaneously turn you away.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
--->
+
+ 
+
   <div class="container section-border">
   </div>
 
@@ -308,7 +217,9 @@
 
   <script src="js/jquery.js"></script> 
   <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.nanogallery2.min.js"></script>
   <script src="js/lightgallery.js"></script>
+  <script type="text/javascript" src="js/slick.min.js"></script>
   <script src="js/lg-zoom.js"></script>
   <script src="js/jquery.fancybox.pack.js"></script>
   <script src="js/jquery.fancybox-media.js"></script>
@@ -333,6 +244,48 @@
         if( $(e.target).is('a') ) {
             $(this).collapse('hide');
         }
+    });
+  </script>
+  <!-- slick js -->
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.news-slick').slick({
+        dots: true,
+        arrows: true,
+        speed: 300,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        infinite: true,
+        adaptiveHeight: true,
+        draggable: false,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3,
+              dots: true
+            }
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+          // You can unslick at a given breakpoint now by adding:
+          // settings: "unslick"
+          // instead of a settings object
+        ]
+      });
     });
   </script>
 </body>

@@ -27,6 +27,7 @@ body {
 	font-weight:300;
 	line-height:1.6em;
 	color:#656565;
+	background-image: url("bg4.png");
 }
 
 h4 {
@@ -68,6 +69,11 @@ a:active {
  	 max-width: 950px;
 }
 
+.form-control {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-radius: 0px;
+}
 .lg-sub-html h4 {
 	font-family: "Open Sans", Arial, sans-serif;
 	font-style: "Medium";
@@ -105,6 +111,11 @@ a:active {
   font-family: 'Inconsolata', monospace;
   color: #777;
   margin: 0 auto;
+}
+
+.li-social {
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 @media ( max-width: 760px ) {
@@ -270,12 +281,23 @@ header .navbar-default .navbar-nav > .open > a:focus {
 
 
 header .navbar {
-    min-height: 100px;
+	min-height: 100px;
+
 }
 
 header .navbar-nav > li  {
-    padding-bottom: 20px;
-    padding-top: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+header .navbar-nav > li > .li-social  {
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+header .navbar-nav > li > a {
+    padding-bottom: 0px;
+    padding-top: 0px;
 }
 
 header  .navbar-nav > li > a {
@@ -292,7 +314,9 @@ header  .navbar-nav > li > a {
     transition: all .3s ease;
 }
 
-
+header .navbar {
+    min-height: 60px;
+}
 .dropdown-menu li a:hover {
     color: #fff !important;
 }
@@ -326,6 +350,11 @@ header .nav .caret {
 
 header .nav li .dropdown-menu  {
    padding: 0;
+}
+
+li.li-social {
+	padding-top: 20px;
+	padding-bottom: 10px;
 }
 
 header .nav li .dropdown-menu li a {
@@ -440,6 +469,14 @@ ul.nav li.dropdown a {
 	position: relative; 
 	zoom: 1;
 }
+
+.slick-slider {
+	-webkit-user-select: text;
+	-khtml-user-select: text;
+	-moz-user-select: text;
+	-ms-user-select: text;
+	user-select: text;
+  }
 
 .flex-caption {background:none; -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000); zoom: 1;}
 .flex-caption { bottom: 35px; background-color: rgba(0, 0, 0, 0.8); color: #fff; margin: 0; padding: 25px 25px 25px 30px; position: absolute; right: 45px; width: 295px;}
@@ -670,10 +707,8 @@ form#commentform input[type="text"] {
   padding-right:20px;
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
-          box-sizing: border-box;
-	-webkit-border-radius: 2px 2px 2px 2px;
-		-moz-border-radius: 2px 2px 2px 2px;
-			border-radius: 2px 2px 2px 2px;
+		  box-sizing: border-box;
+		  
 
 }
 
@@ -686,9 +721,6 @@ form#commentform textarea {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
-	-webkit-border-radius: 2px 2px 2px 2px;
-		-moz-border-radius: 2px 2px 2px 2px;
-			border-radius: 2px 2px 2px 2px;
 }
 
 
@@ -2095,4 +2127,8 @@ article img.pull-right, article .align-right{
 
 @media (max-width: 360px) {
 
+}
+
+.navbar-collapse {
+	height: 250px;
 }
